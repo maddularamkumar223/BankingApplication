@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+  </head>
+  <body>
+    <main>
+      <nav id="nav_container"></nav>
+      <section>
+        <form action="" class="row">
+          <h1 class="text-center">Registration Form</h1>
+          <aside class="col-12 col-md-6">
+            <label for="">Name</label>
+            <input type="text" name="name" placeholder="Enter Your Name" />
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="">Email</label>
+            <input type="email" name="email" placeholder="Enter Your Email" />
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="">Contact</label>
+            <input
+              type="tel"
+              name="contact"
+              placeholder="Enter Your Contact Number"
+            />
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Your Password"
+            />
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="">Date Of Birth</label>
+            <input type="date" name="dob" />
+          </aside>
+          <aside class="col-12 col-md-6">
+            <label for="">Gender</label>
+            <input type="radio" name="gender" value="male" />Male
+            <input type="radio" name="gender" value="female" />Female
+            <input type="radio" name="gender" value="others" />Others
+          </aside>
+          <aside class="col-12">
+            <label for="">Address</label>
+            <textarea
+              name="address"
+              id="address"
+              placeholder="Enter Your Address"
+            ></textarea>
+          </aside>
+
+          <aside class="col-12 text-center">
+            <button>Submit</button>
+          </aside>
+        </form>
+      </section>
+    </main>
+    <script src="./register.js"></script>
+    <script src="../bootstrap/bootstrap.js"></script>
+  </body>
+</html>

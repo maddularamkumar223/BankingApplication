@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../registerPage/register.css" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+    <style>
+      form {
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly;
+        flex-direction: column;
+      }
+      aside {
+        width: 100%;
+      }
+      h1 {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav id="navConatainer"></nav>
+      <section>
+        <form action="">
+          <h1 class="text-center">Login Form</h1>
+          <aside>
+            <label for="">Email</label>
+            <input type="email" name="email" placeholder="Enter Your Email" />
+          </aside>
+          <aside>
+            <label for="">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Your Password"
+            />
+          </aside>
+          <aside>
+            <button>Submit</button>
+          </aside>
+        </form>
+      </section>
+    </main>
+    <script src="./login.js"></script>
+    <script src="../bootstrap/bootstrap.js"></script>
+  </body>
+</html>
