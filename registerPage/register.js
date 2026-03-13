@@ -1,16 +1,15 @@
 let form = document.querySelector("form");
 
-let accountNumber = 1;
-
-function* createAccountNumber() {
-  while (true) {
-    accountNumber++;
-    yield accountNumber;
+let accNumberData = async () => {
+  let response = await fetch("http://localhost:3000/users");
+  let data = await response.json();
+  if (data.length === 0) {
+    return 1;
+  } else {
+    return data[data.length - 1].accNo + 1;
   }
-}
-let accNumber = createAccountNumber();
-
-form.addEventListener("submit", (e) => {
+};
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
   let formData = new FormData(form);
   if (
@@ -32,12 +31,14 @@ form.addEventListener("submit", (e) => {
       dob: formData.get("dob"),
       address: formData.get("address"),
       gender: formData.get("gender"),
-      accNo: accNumber.next().value,
+      accNo: await accNumberData(),
+      balance: 0,
+      createdAt: new Date(),
     };
     createUser(userDetails);
-    location.reload();
-    // location.href = "../logInPage/logIn.html";
+    location.href = "../logInPage/logIn.html";
     alert("Registration Done ");
+    location.reload();
   }
 });
 

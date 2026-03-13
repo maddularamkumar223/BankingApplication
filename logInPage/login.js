@@ -18,6 +18,8 @@ let validation = async (data) => {
       (value) => value.email === data.email && value.password === data.password,
     );
     if (userData) {
+      // sessionStorage.setItem("id", userData.id);
+      localStorage.setItem("id", userData.id);
       location.href = "../homePage/index.html";
     } else {
       location.href = "../registerPage/register.html";

@@ -1,48 +1,55 @@
 {
   "users": [
     {
-      "id": "cbf9",
+      "id": "44d9",
       "name": "Ram",
       "email": "ram@gmail.com",
       "password": "123456",
       "contact": "1234567890",
-      "dob": "2026-03-10",
-      "address": "Kbhp",
+      "dob": "2026-03-01",
+      "address": "HYD",
       "gender": "male",
-      "accNo": 1
+      "accNo": 1,
+      "balance": 0
     },
     {
-      "id": "f7a0",
+      "id": "e6e2",
       "name": "Ravi",
       "email": "ravi@gmail.com",
       "password": "123456",
       "contact": "1234567890",
-      "dob": "2026-03-09",
-      "address": "Kbhp",
+      "dob": "2026-03-05",
+      "address": "VIJ",
       "gender": "male",
-      "accNo": 1
+      "accNo": 2,
+      "balance": 0,
+      "createdAt": "2026-03-13T04:19:49.643Z"
     },
     {
-      "id": "ada0",
+      "id": "ee27",
       "name": "Kumari",
       "email": "kumari@gmail.com",
       "password": "123456",
       "contact": "1234567890",
-      "dob": "2026-03-15",
-      "address": "KBHP",
+      "dob": "2026-02-09",
+      "address": "Guntur",
       "gender": "female",
-      "accNo": 2
+      "accNo": 3,
+      "balance": 0,
+      "createdAt": "2026-03-13T04:19:49.643Z"
     },
     {
-      "id": "a37f",
-      "name": "Raghu",
-      "email": "raghu@gmail.com",
+      "id": "7136",
+      "name": "Aravind",
+      "email": "aravind@gmail.com",
       "password": "123456",
       "contact": "1234567890",
-      "dob": "2026-03-04",
-      "address": "Kbhp",
+      "dob": "2026-03-02",
+      "address": "HYD",
       "gender": "male",
-      "accNo": 2
+      "accNo": 4,
+      "balance": 0,
+      "createdAt": "2026-03-13T04:19:49.643Z"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
