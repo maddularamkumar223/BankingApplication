@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../navbar/navbar.css" />
+    <link rel="stylesheet" href="../registerPage/register.css" />
+    <style>
+      main form {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav id="nav_container"></nav>
+      <section>
+        <form action="">
+          <h1>Fund Transfer</h1>
+          <aside>
+            <label for="">Account Number</label>
+            <input
+              type="text"
+              name="accountNumber"
+              placeholder="Enter The Account Number"
+            />
+          </aside>
+          <aside>
+            <label for="">Account Holder Name</label>
+            <input
+              type="text"
+              name="ahn"
+              placeholder="Enter The Account Holder Name"
+            />
+          </aside>
+          <aside>
+            <label for="">Amount</label>
+            <input type="number" name="amount" placeholder="Enter The Amount" />
+          </aside>
+
+          <aside>
+            <button>Submit</button>
+          </aside>
+        </form>
+      </section>
+    </main>
+    <script src="../navbar/navbar.js"></script>
+    <script src="./fundTrasfer.js" type="module"></script>
+    <script src="../bootstrap/bootstrap.js"></script>
+  </body>
+</html>

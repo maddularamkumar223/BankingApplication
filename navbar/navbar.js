@@ -16,7 +16,7 @@ let navigation = [
   },
   {
     name: "fund transfer",
-    path: "#",
+    path: "../fundTransfer/fundTransfer.html",
   },
   {
     name: "transition history",

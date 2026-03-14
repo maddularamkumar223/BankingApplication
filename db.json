@@ -10,7 +10,7 @@
       "address": "HYD",
       "gender": "male",
       "accNo": 1,
-      "balance": 0
+      "balance": 10000
     },
     {
       "id": "e6e2",
@@ -50,6 +50,29 @@
       "accNo": 4,
       "balance": 0,
       "createdAt": "2026-03-13T04:19:49.643Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "5ab8",
+      "transactionId": "ed3b9a8e-696c-456b-a3b9-ce78534e4403",
+      "sendId": "44d9",
+      "receiverId": "e6e2",
+      "amount": "1000"
+    },
+    {
+      "id": "bec1",
+      "transactionId": "ee6e150f-7c42-465b-83e3-a9910347d9de",
+      "sendId": "44d9",
+      "receiverId": "ee27",
+      "amount": "1000"
+    },
+    {
+      "id": "ccba",
+      "transactionId": "f8d85c09-0bed-4e3a-93f8-bbf9f830c9dd",
+      "sendId": "44d9",
+      "receiverId": "7136",
+      "amount": "1000"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
