@@ -20,7 +20,7 @@ let navigation = [
   },
   {
     name: "transition history",
-    path: "#",
+    path: "../transitionHistory/transactionHistory.html",
   },
   {
     name: "contact",
@@ -68,6 +68,7 @@ let createNavbar = (data) => {
       button.innerHTML = "Logout";
       button.addEventListener("click", () => {
         localStorage.removeItem("id");
+        location.href = "../logInPage/logIn.html";
         location.reload();
       });
       li.append(button);
