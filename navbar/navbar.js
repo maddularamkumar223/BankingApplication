@@ -38,8 +38,8 @@ let profile = [
     path: "../logInPage/logIn.html",
   },
   {
-    name: "notifications",
-    path: "#",
+    name: "notifications <sup>0</sup>",
+    path: "../notification/notification.html",
   },
   {
     name: "my account",
@@ -100,3 +100,19 @@ if (localId) {
   myAccount.style.display = "none";
   logout.style.display = "none";
 }
+
+let userId = localStorage.getItem("id");
+
+let fetchNotifications = async () => {
+  let response = await fetch("http://localhost:3000/history");
+  let responseData = await response.json();
+
+  let filterData = responseData
+    .filter((value) => value.sendId === userId || value.receiverId)
+    .filter((value) => value.notification === false);
+  console.log(filterData);
+
+  let sup = document.querySelector("sup");
+  sup.innerHTML = filterData.length;
+};
+fetchNotifications();

@@ -10,7 +10,7 @@
       "address": "HYD",
       "gender": "male",
       "accNo": 1,
-      "balance": 8000
+      "balance": 6000
     },
     {
       "id": "e6e2",
@@ -22,7 +22,7 @@
       "address": "VIJ",
       "gender": "male",
       "accNo": 2,
-      "balance": 1000,
+      "balance": 2000,
       "createdAt": "2026-03-13T04:19:49.643Z"
     },
     {
@@ -35,7 +35,7 @@
       "address": "Guntur",
       "gender": "female",
       "accNo": 3,
-      "balance": 0,
+      "balance": 1000,
       "createdAt": "2026-03-13T04:19:49.643Z"
     },
     {
@@ -54,61 +54,12 @@
   ],
   "history": [
     {
-      "id": "5ab8",
-      "transactionId": "ed3b9a8e-696c-456b-a3b9-ce78534e4403",
-      "sendId": "44d9",
-      "receiverId": "e6e2",
-      "amount": "1000"
-    },
-    {
-      "id": "bec1",
-      "transactionId": "ee6e150f-7c42-465b-83e3-a9910347d9de",
-      "sendId": "44d9",
-      "receiverId": "ee27",
-      "amount": "1000"
-    },
-    {
-      "id": "ccba",
-      "transactionId": "f8d85c09-0bed-4e3a-93f8-bbf9f830c9dd",
-      "sendId": "44d9",
-      "receiverId": "7136",
-      "amount": "1000"
-    },
-    {
-      "id": "8687",
-      "transactionId": "0357a628-79e1-45c0-a11f-1625e3e52d45",
-      "sendId": "44d9",
-      "receiverId": "ee27",
-      "amount": "1000"
-    },
-    {
-      "id": "88e4",
-      "transactionId": "53af7e73-9f9a-46e5-aa52-a742fe5c4b24",
-      "sendId": "44d9",
-      "receiverId": "ee27",
-      "amount": "1000"
-    },
-    {
-      "id": "0bff",
-      "transactionId": "bd4f97c1-fa7f-44e4-a81d-856ed0cc4331",
-      "sendId": "44d9",
-      "receiverId": "ee27",
-      "amount": "1000"
-    },
-    {
-      "id": "a21d",
-      "transactionId": "27958fef-407a-4e31-8d6d-42db18f44483",
-      "sendId": "44d9",
-      "receiverId": "7136",
-      "amount": "1000"
-    },
-    {
       "id": "b667",
       "transactionId": "7c4b5aa1-7ebe-4e7f-aac5-85f08207f68e",
       "sendId": "44d9",
       "receiverId": "e6e2",
       "amount": "1000",
-      "notification": false,
+      "notification": true,
       "date": "Mon Mar 16 2026",
       "holderName": "Ram"
     },
@@ -118,8 +69,26 @@
       "sendId": "ee27",
       "receiverId": "44d9",
       "amount": "2000",
-      "notification": false,
+      "notification": true,
       "date": "Mon Mar 16 2026"
+    },
+    {
+      "id": "ee37",
+      "transactionId": "f31da163-1563-4a3e-a6e0-813b4dea9fbb",
+      "sendId": "44d9",
+      "receiverId": "e6e2",
+      "amount": "1000",
+      "notification": true,
+      "date": "Tue Mar 17 2026"
+    },
+    {
+      "id": "1107",
+      "transactionId": "30d4c890-60e1-4f87-970f-b0d576eec9b1",
+      "sendId": "44d9",
+      "receiverId": "ee27",
+      "amount": "1000",
+      "notification": true,
+      "date": "Tue Mar 17 2026"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
