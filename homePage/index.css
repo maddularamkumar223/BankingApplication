@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 90vh;
+}
+
+section article:first-child {
+  background-image: url("https://moneyview.in/images/merge-banks-list-og.jpg");
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section p {
+  font-size: 60px;
+  color: white;
+}

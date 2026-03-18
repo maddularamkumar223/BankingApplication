@@ -1,7 +1,7 @@
 let log = [
   {
     name: "logo",
-    path: "#",
+    path: "../Image20260318101632.png",
   },
 ];
 
@@ -12,7 +12,7 @@ let navigation = [
   },
   {
     name: "services",
-    path: "#",
+    path: "../services/service.html",
   },
   {
     name: "fund transfer",
@@ -43,7 +43,7 @@ let profile = [
   },
   {
     name: "my account",
-    path: "#",
+    path: "../myAccount/myAccount.html",
   },
   {
     name: "logout",
